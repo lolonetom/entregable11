@@ -1,0 +1,92 @@
+//Fuentes
+$fuentegral: 'Source Sans Pro', sans-serif;
+
+//paleta de colores
+$colortexto: rgb(97, 97, 97);
+$colorazul: #085394;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+    min-height: 700px;
+    min-width: 400px;
+    max-height: 1200px;
+}
+
+.container-fluid div{
+    padding: 10px;
+}
+
+#top__menu{
+    background-color: $colorazul;
+    height: 40px;
+}
+
+#logo{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    font-size: 50px;
+    color: #085394;
+    justify-content: center;
+    align-items: center ;
+}
+
+h1{
+    color: $colorazul;
+    font-family: $fuentegral;
+    text-align: center;
+}
+
+#carouselExampleCaptions{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+}
+.texto-negro{
+    color: black;
+}
+
+.flexbox{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    width: auto;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.flexbox  div{
+    margin: 15px;
+}
+
+.flexbox > p{
+    padding: 30px;
+}
+
+#card{
+    margin-top: 20px;
+}
+
+#footer{
+    background-color: #085394;
+    height: 50px;
+    text-align: end;
+    align-items: flex-end;
+    font-size: 20px;
+    color: white;
+}
+
+#gris{
+    padding: 20px;
+    height: 20px;
+}
+
+#formulario{
+    height: 800px;
+
+}
